@@ -1,0 +1,71 @@
+@import "variables";
+
+nav {
+  height: 100px;
+  background-color: @yellow-primary;
+  ul {
+      float: left;
+      margin: 0;
+      list-style: none;
+  }
+  li {
+      float: left;
+  }
+  a {
+      display: block;
+      font-family: 'Roboto', sans-serif;
+      line-height: 100px;
+      margin-right: 1px;
+      padding: 0px 20px 0px 20px;
+      font-size: 18px;
+      font-weight: 300;
+      color: #050500;
+  }
+}
+
+header {
+  background: url("@{images}/banner-bg.png");
+  background-color: #3B3838;
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #050500;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #050500;
+  font-weight: 500;
+}
+
+.row {
+  padding: 3%;
+}
+
+.color {
+  .background ();
+}
+
+button {
+  background-color: @yellow-primary !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #050500 !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: @black-secondary;
+  border-top: 20px solid @yellow-primary;
+  text-align: center;
+  img {
+    width: 25%;
+    padding: 3%;
+  }
+}
